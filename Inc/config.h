@@ -47,11 +47,11 @@
 //Battery bar settings for Kunteng and Bafang Display
 
 //#define BATTERY_LEVEL_0 320000 //moved to display_kunteng.h
-#define BATTERY_LEVEL_1 323000
-#define BATTERY_LEVEL_2 329000
-#define BATTERY_LEVEL_3 344000
-#define BATTERY_LEVEL_4 368000
-#define BATTERY_LEVEL_5 380000
+#define BATTERY_LEVEL_1 335000
+#define BATTERY_LEVEL_2 355000
+#define BATTERY_LEVEL_3 370000
+#define BATTERY_LEVEL_4 385000
+#define BATTERY_LEVEL_5 405000
 
 //----------------------------------------------------------------------
 //PI-control factor settings
@@ -67,7 +67,7 @@
 //#define DIRDET
 #define FRAC_HIGH 30
 #define FRAC_LOW 15
-#define PAS_TIMEOUT 3000
+#define PAS_TIMEOUT 8000
 #define RAMP_END 1200
 #define PAS_IMP_PER_TURN 32
 
@@ -79,9 +79,9 @@
 
 //--------------------------------------------------------------------
 //Speed settings
-#define WHEEL_CIRCUMFERENCE 2200
+#define WHEEL_CIRCUMFERENCE 2250
 #define GEAR_RATIO 11 //11 for BionX IGH3
-#define SPEEDLIMIT 25
+#define SPEEDLIMIT 99
 #define PULSES_PER_REVOLUTION 1
 #define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
@@ -108,8 +108,8 @@
 //---------------------------------------------------------------------
 //Regen settings
 
-#define REGEN_CURRENT 800
-#define REGEN_CURRENT_MAX 10000
+#define REGEN_CURRENT 0
+#define REGEN_CURRENT_MAX 0
 //#define ADC_BRAKE
 
 //---------------------------------------------------------------------
