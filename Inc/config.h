@@ -6,7 +6,7 @@
  */
 
 #ifndef CONFIG_H_
-#define CONFIG_H_
+#define CONFIG_H_-
 #include "stdint.h"
 
 // System constants, don't touch!
