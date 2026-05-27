@@ -11,7 +11,7 @@
 
 // System constants, don't touch!
 #define DISPLAY_TYPE_DEBUG (1<<0)							// For ASCII-Output in Debug mode);
-#define DISPLAY_TYPE_NO2 (1<<1)							// For Kunteng display
+#define DISPLAY_TYPE_KUNTENG (1<<1)							// For Kunteng display
 #define DISPLAY_TYPE_BAFANG_LCD (1<<2)						// For 'Blaupunkt' Display of Prophete Entdecker
 #define DISPLAY_TYPE_BAFANG_850_860 (1<<3)					// Bafang 850/860. Can do 9k6 baud, also compatible with 1200 baud detection at startup
 #define DISPLAY_TYPE_KINGMETER_618U (1<<4)                  // King-Meter 618U protocol ( J-LCD)
@@ -46,12 +46,12 @@
 //----------------------------------------------------------------------
 //Battery bar settings for Kunteng and Bafang Display
 
-//#define BATTERY_LEVEL_0 320000 //moved to display_kunteng.h
-#define BATTERY_LEVEL_1 335000
-#define BATTERY_LEVEL_2 355000
-#define BATTERY_LEVEL_3 370000
-#define BATTERY_LEVEL_4 385000
-#define BATTERY_LEVEL_5 405000
+//#define BATTERY_LEVEL_0 330000 //moved to display_kunteng.h
+#define BATTERY_LEVEL_1 348000
+#define BATTERY_LEVEL_2 363000
+#define BATTERY_LEVEL_3 377000
+#define BATTERY_LEVEL_4 392000
+#define BATTERY_LEVEL_5 410000
 
 //----------------------------------------------------------------------
 //PI-control factor settings
@@ -103,7 +103,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_DEBUG
+#define DISPLAY_TYPE DISPLAY_TYPE_KINGMETER_901U
 
 //---------------------------------------------------------------------
 //Regen settings
